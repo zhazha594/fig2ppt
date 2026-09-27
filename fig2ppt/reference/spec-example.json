@@ -1,0 +1,1825 @@
+{
+ "image": "1c2ebf550ca8de1060a82af413d415ef.png",
+ "keep_only": true,
+ "overrides": {},
+ "add": [
+  {
+   "rect": [
+    69,
+    138,
+    58,
+    34
+   ],
+   "text": "Template",
+   "shape": "rect",
+   "fill": "#D8E8FF",
+   "stroke": "#7A9CC6",
+   "size": 7.32
+  },
+  {
+   "rect": [
+    706,
+    40,
+    84,
+    42
+   ],
+   "text": "Tracking\nresult",
+   "shape": "rect",
+   "fill": "#D8E8FF",
+   "stroke": "#7A9CC6",
+   "size": 8.47
+  },
+  {
+   "rect": [
+    710,
+    114,
+    72,
+    62
+   ],
+   "text": "Linear\ncorrelation\nfilter",
+   "shape": "ellipse",
+   "fill": "#D8E8FF",
+   "stroke": "#7A9CC6",
+   "size": 6.54
+  },
+  {
+   "rect": [
+    818,
+    78,
+    128,
+    62
+   ],
+   "text": "Online filter update\n(running average with\nlearning rate η )",
+   "shape": "rect",
+   "fill": "#D8E8FF",
+   "stroke": "#7A9CC6",
+   "size": 6.93
+  },
+  {
+   "rect": [
+    356,
+    138,
+    96,
+    36
+   ],
+   "text": "Preprocessing",
+   "shape": "hexagon",
+   "fill": "#D8E8FF",
+   "stroke": "#7A9CC6",
+   "size": 7.32
+  },
+  {
+   "rect": [
+    467,
+    128,
+    100,
+    50
+   ],
+   "text": "Single channel\nraw pixels",
+   "shape": "rect",
+   "fill": "#D8E8FF",
+   "stroke": "#7A9CC6",
+   "size": 8.09
+  },
+  {
+   "rect": [
+    366,
+    234,
+    66,
+    48
+   ],
+   "text": "Search\nframe",
+   "shape": "rect",
+   "fill": "#D8E8FF",
+   "stroke": "#7A9CC6",
+   "size": 8.09
+  },
+  {
+   "rect": [
+    518,
+    190,
+    106,
+    34
+   ],
+   "text": "Preprocessing",
+   "shape": "hexagon",
+   "fill": "#D8E8FF",
+   "stroke": "#7A9CC6",
+   "size": 8.09
+  },
+  {
+   "rect": [
+    236,
+    114,
+    92,
+    60
+   ],
+   "shape": "rect",
+   "fill": "#D8E8FF",
+   "stroke": "#7A9CC6",
+   "icon": "stripes"
+  },
+  {
+   "rect": [
+    398,
+    56,
+    134,
+    50
+   ],
+   "text": "Pretrained CNN",
+   "shape": "parallelogram",
+   "fill": "#E4E4B8",
+   "stroke": "#8C8C34",
+   "size": 8.09
+  },
+  {
+   "rect": [
+    498,
+    236,
+    142,
+    44
+   ],
+   "text": "Pretrained CNN",
+   "shape": "parallelogram",
+   "fill": "#E4E4B8",
+   "stroke": "#8C8C34",
+   "size": 8.09
+  },
+  {
+   "rect": [
+    352,
+    402,
+    138,
+    44
+   ],
+   "text": "Pretrained CNN",
+   "shape": "parallelogram",
+   "fill": "#E4E4B8",
+   "stroke": "#8C8C34",
+   "size": 8.09
+  },
+  {
+   "rect": [
+    188,
+    334,
+    90,
+    58
+   ],
+   "shape": "rect",
+   "fill": "#D8E8D0",
+   "stroke": "#7CA85C",
+   "icon": "stripes"
+  },
+  {
+   "rect": [
+    293,
+    352,
+    148,
+    40
+   ],
+   "text": "Preprocessing\n& feature extraction",
+   "shape": "hexagon",
+   "fill": "#D8E8D0",
+   "stroke": "#7CA85C",
+   "size": 6.93
+  },
+  {
+   "rect": [
+    458,
+    350,
+    96,
+    40
+   ],
+   "text": "Multi channel\nfeatures",
+   "shape": "rect",
+   "fill": "#D8E8D0",
+   "stroke": "#7CA85C",
+   "size": 6.93
+  },
+  {
+   "rect": [
+    510,
+    292,
+    164,
+    38
+   ],
+   "text": "Preprocessing\n& feature extraction",
+   "shape": "hexagon",
+   "fill": "#D8E8D0",
+   "stroke": "#7CA85C",
+   "size": 6.93
+  },
+  {
+   "rect": [
+    712,
+    320,
+    74,
+    62
+   ],
+   "text": "Kernelized\ncorrelation\nfilter",
+   "shape": "ellipse",
+   "fill": "#D8E8D0",
+   "stroke": "#7CA85C",
+   "size": 6.93
+  },
+  {
+   "rect": [
+    800,
+    370,
+    152,
+    54
+   ],
+   "text": "Online update\n(running average with\nlearning rate η)",
+   "shape": "rect",
+   "fill": "#D8E8D0",
+   "stroke": "#7CA85C",
+   "size": 6.93
+  },
+  {
+   "rect": [
+    712,
+    424,
+    70,
+    32
+   ],
+   "text": "Tracking\nresult",
+   "shape": "rect",
+   "fill": "#D8E8D0",
+   "stroke": "#7CA85C",
+   "size": 7.7
+  },
+  {
+   "rect": [
+    588,
+    462,
+    74,
+    64
+   ],
+   "text": "Spatial\nregularization",
+   "shape": "hexagon",
+   "fill": "#EEC8E4",
+   "stroke": "#A050A0",
+   "size": 5.39
+  },
+  {
+   "rect": [
+    694,
+    504,
+    86,
+    62
+   ],
+   "text": "Spatially\nregularized\ncorrelation\nfilter",
+   "shape": "ellipse",
+   "fill": "#EEC8E4",
+   "stroke": "#A050A0",
+   "size": 6.54
+  },
+  {
+   "rect": [
+    782,
+    558,
+    142,
+    58
+   ],
+   "text": "Online update\n(spatially regularized\noptimization)",
+   "shape": "hexagon",
+   "fill": "#EEC8E4",
+   "stroke": "#A050A0",
+   "size": 6.54
+  },
+  {
+   "rect": [
+    692,
+    612,
+    82,
+    34
+   ],
+   "text": "Tracking\nresult",
+   "shape": "rect",
+   "fill": "#EEC8E4",
+   "stroke": "#A050A0",
+   "size": 7.7
+  },
+  {
+   "rect": [
+    44,
+    518,
+    60,
+    50
+   ],
+   "text": "Search\nframe",
+   "shape": "rect",
+   "fill": "#F0F000",
+   "stroke": "#C09000",
+   "size": 8.09
+  },
+  {
+   "rect": [
+    160,
+    516,
+    156,
+    54
+   ],
+   "text": "Extract real background\n& foreground patches",
+   "shape": "parallelogram",
+   "fill": "#F0F000",
+   "stroke": "#C09000",
+   "size": 7.7
+  },
+  {
+   "rect": [
+    338,
+    500,
+    80,
+    76
+   ],
+   "text": "Background-\nAware CF\n(ADMM)",
+   "shape": "ellipse",
+   "fill": "#F0F000",
+   "stroke": "#C09000",
+   "size": 6.93
+  },
+  {
+   "rect": [
+    434,
+    558,
+    108,
+    54
+   ],
+   "text": "Online update\n(exponential moving\nAverage)",
+   "shape": "hexagon",
+   "fill": "#F0F000",
+   "stroke": "#C09000",
+   "size": 6.54
+  },
+  {
+   "rect": [
+    356,
+    612,
+    62,
+    34
+   ],
+   "text": "Tracking\nresult",
+   "shape": "rect",
+   "fill": "#F0F000",
+   "stroke": "#C09000",
+   "size": 7.7
+  },
+  {
+   "rect": [
+    40,
+    792,
+    58,
+    30
+   ],
+   "text": "Template",
+   "shape": "rect",
+   "fill": "#98FFFF",
+   "stroke": "#2AA8A8",
+   "size": 7.32
+  },
+  {
+   "rect": [
+    30,
+    840,
+    66,
+    46
+   ],
+   "text": "Search\nframe",
+   "shape": "rect",
+   "fill": "#98FFFF",
+   "stroke": "#2AA8A8",
+   "size": 8.09
+  },
+  {
+   "rect": [
+    142,
+    788,
+    128,
+    90
+   ],
+   "text": "Shared backbone\n(CNN )",
+   "shape": "triangleR",
+   "fill": "#98FFFF",
+   "stroke": "#2AA8A8",
+   "size": 7.7
+  },
+  {
+   "rect": [
+    298,
+    762,
+    76,
+    72
+   ],
+   "text": "Linear\ncorrelation\nfilter",
+   "shape": "ellipse",
+   "fill": "#98FFFF",
+   "stroke": "#2AA8A8",
+   "size": 6.93
+  },
+  {
+   "rect": [
+    372,
+    832,
+    80,
+    72
+   ],
+   "text": "Cross\ncorrelation",
+   "shape": "diamond",
+   "fill": "#98FFFF",
+   "stroke": "#2AA8A8",
+   "size": 6.93
+  },
+  {
+   "rect": [
+    486,
+    850,
+    66,
+    34
+   ],
+   "text": "Tracking\nresult",
+   "shape": "rect",
+   "fill": "#98FFFF",
+   "stroke": "#2AA8A8",
+   "size": 7.7
+  },
+  {
+   "rect": [
+    587,
+    672,
+    123,
+    183
+   ],
+   "shape": "rect",
+   "fill": "#E8C098",
+   "stroke": "#C08040",
+   "bg": true
+  },
+  {
+   "rect": [
+    622,
+    694,
+    64,
+    18
+   ],
+   "text": "Search",
+   "shape": "rect",
+   "fill": "#F8E0C0",
+   "stroke": "#C08040",
+   "size": 6.54
+  },
+  {
+   "rect": [
+    610,
+    710,
+    72,
+    34
+   ],
+   "text": "Template\ndomain 1",
+   "shape": "rect",
+   "fill": "#F8E0C0",
+   "stroke": "#C08040",
+   "size": 6.93
+  },
+  {
+   "rect": [
+    622,
+    746,
+    64,
+    18
+   ],
+   "text": "Search",
+   "shape": "rect",
+   "fill": "#F8E0C0",
+   "stroke": "#C08040",
+   "size": 6.54
+  },
+  {
+   "rect": [
+    610,
+    762,
+    72,
+    34
+   ],
+   "text": "Template\ndomain 2",
+   "shape": "rect",
+   "fill": "#F8E0C0",
+   "stroke": "#C08040",
+   "size": 6.93
+  },
+  {
+   "rect": [
+    622,
+    802,
+    64,
+    18
+   ],
+   "text": "Search",
+   "shape": "rect",
+   "fill": "#F8E0C0",
+   "stroke": "#C08040",
+   "size": 6.54
+  },
+  {
+   "rect": [
+    610,
+    818,
+    72,
+    34
+   ],
+   "text": "Template\ndomain n",
+   "shape": "rect",
+   "fill": "#F8E0C0",
+   "stroke": "#C08040",
+   "size": 6.93
+  },
+  {
+   "rect": [
+    587,
+    857,
+    117,
+    100
+   ],
+   "shape": "rect",
+   "fill": "#E8C098",
+   "stroke": "#C08040",
+   "bg": true
+  },
+  {
+   "rect": [
+    618,
+    884,
+    64,
+    26
+   ],
+   "text": "Template",
+   "shape": "rect",
+   "fill": "#F8E0C0",
+   "stroke": "#C08040",
+   "size": 6.93
+  },
+  {
+   "rect": [
+    610,
+    912,
+    74,
+    36
+   ],
+   "shape": "rect",
+   "fill": "#E8C098",
+   "stroke": "#C08040",
+   "icon": "stripes"
+  },
+  {
+   "rect": [
+    725,
+    914,
+    86,
+    36
+   ],
+   "text": "Candidate\nsampling",
+   "shape": "rect",
+   "fill": "#F8E0C0",
+   "stroke": "#C08040",
+   "size": 6.93
+  },
+  {
+   "rect": [
+    747,
+    667,
+    180,
+    160
+   ],
+   "shape": "rect",
+   "no_fill": true,
+   "stroke": "#C08040",
+   "dash": true
+  },
+  {
+   "rect": [
+    763,
+    714,
+    80,
+    96
+   ],
+   "text": "Shared\nbackbone\n(CNN)",
+   "shape": "pentagon",
+   "fill": "#F8E0C0",
+   "stroke": "#C08040",
+   "size": 6.93
+  },
+  {
+   "rect": [
+    747,
+    840,
+    180,
+    50
+   ],
+   "shape": "rect",
+   "no_fill": true,
+   "stroke": "#C08040",
+   "dash": true
+  },
+  {
+   "rect": [
+    842,
+    674,
+    76,
+    204
+   ],
+   "shape": "rect",
+   "fill": "#E2BA92",
+   "stroke": "#C08040",
+   "bg": true
+  },
+  {
+   "rect": [
+    858,
+    702,
+    40,
+    28
+   ],
+   "text": "FC 1",
+   "shape": "pentagon",
+   "fill": "#F8E0C0",
+   "stroke": "#C08040",
+   "size": 6.54
+  },
+  {
+   "rect": [
+    858,
+    742,
+    40,
+    28
+   ],
+   "text": "FC 2",
+   "shape": "pentagon",
+   "fill": "#F8E0C0",
+   "stroke": "#C08040",
+   "size": 6.54
+  },
+  {
+   "rect": [
+    858,
+    800,
+    40,
+    28
+   ],
+   "text": "FC n",
+   "shape": "pentagon",
+   "fill": "#F8E0C0",
+   "stroke": "#C08040",
+   "size": 6.54
+  },
+  {
+   "rect": [
+    856,
+    850,
+    46,
+    28
+   ],
+   "text": "FC n",
+   "shape": "pentagon",
+   "fill": "#F8E0C0",
+   "stroke": "#C08040",
+   "size": 6.54
+  },
+  {
+   "rect": [
+    942,
+    844,
+    64,
+    36
+   ],
+   "text": "Tracking\nresult",
+   "shape": "rect",
+   "fill": "#F8E0C0",
+   "stroke": "#C08040",
+   "size": 6.93
+  },
+  {
+   "rect": [
+    976,
+    42,
+    14,
+    14
+   ],
+   "shape": "ellipse",
+   "fill": "#A8C4E0",
+   "stroke": "#4A6E9E"
+  },
+  {
+   "rect": [
+    976,
+    63,
+    14,
+    14
+   ],
+   "shape": "ellipse",
+   "fill": "#B8DCA0",
+   "stroke": "#6E9E4E"
+  },
+  {
+   "rect": [
+    976,
+    84,
+    14,
+    14
+   ],
+   "shape": "ellipse",
+   "fill": "#F4B183",
+   "stroke": "#C55A11"
+  },
+  {
+   "rect": [
+    976,
+    105,
+    14,
+    14
+   ],
+   "shape": "ellipse",
+   "fill": "#D28BB8",
+   "stroke": "#9E3C7E"
+  },
+  {
+   "rect": [
+    976,
+    126,
+    14,
+    14
+   ],
+   "shape": "ellipse",
+   "fill": "#D6E060",
+   "stroke": "#8C9E20"
+  },
+  {
+   "rect": [
+    976,
+    147,
+    14,
+    14
+   ],
+   "shape": "ellipse",
+   "fill": "#63E8E8",
+   "stroke": "#2AA8A8"
+  },
+  {
+   "rect": [
+    976,
+    168,
+    14,
+    14
+   ],
+   "shape": "ellipse",
+   "fill": "#F0F000",
+   "stroke": "#D05000"
+  }
+ ],
+ "labels": [
+  {
+   "x": 134,
+   "y": 122,
+   "w": 96,
+   "h": 16,
+   "text": "Transformation",
+   "size": 6.93
+  },
+  {
+   "x": 244,
+   "y": 144,
+   "w": 76,
+   "h": 16,
+   "text": "Training set",
+   "size": 8.09
+  },
+  {
+   "x": 580,
+   "y": 138,
+   "w": 122,
+   "h": 26,
+   "text": "Online filter training\nin FFT domain",
+   "size": 8.09
+  },
+  {
+   "x": 92,
+   "y": 356,
+   "w": 86,
+   "h": 16,
+   "text": "Cyclic shift",
+   "size": 8.09
+  },
+  {
+   "x": 182,
+   "y": 354,
+   "w": 80,
+   "h": 16,
+   "text": "Training set",
+   "size": 8.09
+  },
+  {
+   "x": 586,
+   "y": 344,
+   "w": 112,
+   "h": 44,
+   "text": "Online filter\ntraining via FFT\nper channel",
+   "size": 8.09
+  },
+  {
+   "x": 620,
+   "y": 532,
+   "w": 68,
+   "h": 26,
+   "text": "Iterative\nsolver",
+   "size": 7.7
+  },
+  {
+   "x": 270,
+   "y": 724,
+   "w": 180,
+   "h": 32,
+   "text": "Template update\n(Exponential Moving Average)",
+   "size": 8.09
+  },
+  {
+   "x": 594,
+   "y": 676,
+   "w": 112,
+   "h": 18,
+   "text": "Multiple domains",
+   "size": 8.47,
+   "align": "l"
+  },
+  {
+   "x": 600,
+   "y": 790,
+   "w": 32,
+   "h": 20,
+   "text": "⋯",
+   "size": 10.39,
+   "bold": true
+  },
+  {
+   "x": 594,
+   "y": 859,
+   "w": 104,
+   "h": 18,
+   "text": "Test sequence",
+   "size": 8.47,
+   "align": "l"
+  },
+  {
+   "x": 758,
+   "y": 680,
+   "w": 66,
+   "h": 30,
+   "text": "Offline\ntraining",
+   "size": 8.47,
+   "align": "l"
+  },
+  {
+   "x": 758,
+   "y": 850,
+   "w": 66,
+   "h": 30,
+   "text": "Online\ntraining",
+   "size": 8.47,
+   "align": "l"
+  },
+  {
+   "x": 846,
+   "y": 650,
+   "w": 70,
+   "h": 18,
+   "text": "FC layers",
+   "size": 8.47
+  },
+  {
+   "x": 860,
+   "y": 778,
+   "w": 36,
+   "h": 20,
+   "text": "⋮",
+   "size": 10.39,
+   "bold": true
+  },
+  {
+   "x": 870,
+   "y": 894,
+   "w": 86,
+   "h": 18,
+   "text": "Online update",
+   "size": 7.7
+  },
+  {
+   "x": 996,
+   "y": 40,
+   "w": 62,
+   "h": 18,
+   "text": "MOSSE",
+   "size": 8.47,
+   "align": "l"
+  },
+  {
+   "x": 996,
+   "y": 61,
+   "w": 62,
+   "h": 18,
+   "text": "KCF",
+   "size": 8.47,
+   "align": "l"
+  },
+  {
+   "x": 996,
+   "y": 82,
+   "w": 62,
+   "h": 18,
+   "text": "MDNet",
+   "size": 8.47,
+   "align": "l"
+  },
+  {
+   "x": 996,
+   "y": 103,
+   "w": 62,
+   "h": 18,
+   "text": "SRDCF",
+   "size": 8.47,
+   "align": "l"
+  },
+  {
+   "x": 996,
+   "y": 124,
+   "w": 62,
+   "h": 18,
+   "text": "DeepDCF",
+   "size": 8.47,
+   "align": "l"
+  },
+  {
+   "x": 996,
+   "y": 145,
+   "w": 62,
+   "h": 18,
+   "text": "CFNet",
+   "size": 8.47,
+   "align": "l"
+  },
+  {
+   "x": 996,
+   "y": 166,
+   "w": 62,
+   "h": 18,
+   "text": "BACF",
+   "size": 8.47,
+   "align": "l"
+  }
+ ],
+ "arrows": [
+  {
+   "pts": [
+    [
+     127,
+     155
+    ],
+    [
+     234,
+     146
+    ]
+   ],
+   "color": "#4A6E9E",
+   "width": 1.0
+  },
+  {
+   "pts": [
+    [
+     282,
+     112
+    ],
+    [
+     282,
+     80
+    ],
+    [
+     396,
+     80
+    ]
+   ],
+   "color": "#8C8C34",
+   "width": 1.0
+  },
+  {
+   "pts": [
+    [
+     465,
+     106
+    ],
+    [
+     465,
+     124
+    ],
+    [
+     404,
+     124
+    ],
+    [
+     404,
+     138
+    ]
+   ],
+   "color": "#8C8C34",
+   "width": 1.0
+  },
+  {
+   "pts": [
+    [
+     452,
+     156
+    ],
+    [
+     465,
+     153
+    ]
+   ],
+   "color": "#4A6E9E",
+   "width": 1.0
+  },
+  {
+   "pts": [
+    [
+     567,
+     153
+    ],
+    [
+     708,
+     150
+    ]
+   ],
+   "color": "#4A6E9E",
+   "width": 1.0
+  },
+  {
+   "pts": [
+    [
+     746,
+     114
+    ],
+    [
+     746,
+     84
+    ]
+   ],
+   "color": "#4A6E9E",
+   "width": 1.0
+  },
+  {
+   "pts": [
+    [
+     818,
+     118
+    ],
+    [
+     784,
+     134
+    ]
+   ],
+   "color": "#4A6E9E",
+   "width": 1.0
+  },
+  {
+   "pts": [
+    [
+     790,
+     55
+    ],
+    [
+     806,
+     55
+    ],
+    [
+     806,
+     78
+    ]
+   ],
+   "color": "#4A6E9E",
+   "width": 1.0
+  },
+  {
+   "pts": [
+    [
+     432,
+     258
+    ],
+    [
+     496,
+     258
+    ]
+   ],
+   "color": "#4A6E9E",
+   "width": 1.0
+  },
+  {
+   "pts": [
+    [
+     640,
+     256
+    ],
+    [
+     748,
+     256
+    ],
+    [
+     748,
+     178
+    ]
+   ],
+   "color": "#8C8C34",
+   "width": 1.0
+  },
+  {
+   "pts": [
+    [
+     640,
+     240
+    ],
+    [
+     648,
+     232
+    ]
+   ]
+  },
+  {
+   "pts": [
+    [
+     399,
+     282
+    ],
+    [
+     399,
+     312
+    ],
+    [
+     508,
+     312
+    ]
+   ],
+   "color": "#4A6E9E",
+   "width": 1.0
+  },
+  {
+   "pts": [
+    [
+     674,
+     311
+    ],
+    [
+     690,
+     311
+    ],
+    [
+     690,
+     351
+    ],
+    [
+     710,
+     351
+    ]
+   ],
+   "color": "#7CA85C",
+   "width": 1.0
+  },
+  {
+   "pts": [
+    [
+     69,
+     155
+    ],
+    [
+     48,
+     155
+    ],
+    [
+     48,
+     362
+    ],
+    [
+     186,
+     362
+    ]
+   ],
+   "color": "#7CA85C",
+   "width": 1.0
+  },
+  {
+   "pts": [
+    [
+     278,
+     362
+    ],
+    [
+     291,
+     362
+    ]
+   ],
+   "color": "#7CA85C",
+   "width": 1.0
+  },
+  {
+   "pts": [
+    [
+     490,
+     402
+    ],
+    [
+     490,
+     392
+    ]
+   ],
+   "color": "#8C8C34",
+   "width": 1.0
+  },
+  {
+   "pts": [
+    [
+     441,
+     372
+    ],
+    [
+     456,
+     372
+    ]
+   ],
+   "color": "#7CA85C",
+   "width": 1.0
+  },
+  {
+   "pts": [
+    [
+     554,
+     372
+    ],
+    [
+     690,
+     372
+    ],
+    [
+     690,
+     356
+    ],
+    [
+     710,
+     356
+    ]
+   ],
+   "color": "#7CA85C",
+   "width": 1.0
+  },
+  {
+   "pts": [
+    [
+     749,
+     382
+    ],
+    [
+     749,
+     422
+    ]
+   ],
+   "color": "#7CA85C",
+   "width": 1.0
+  },
+  {
+   "pts": [
+    [
+     800,
+     396
+    ],
+    [
+     792,
+     396
+    ],
+    [
+     792,
+     368
+    ],
+    [
+     786,
+     362
+    ]
+   ],
+   "color": "#7CA85C",
+   "width": 1.0
+  },
+  {
+   "pts": [
+    [
+     782,
+     440
+    ],
+    [
+     976,
+     440
+    ],
+    [
+     976,
+     424
+    ]
+   ],
+   "color": "#7CA85C",
+   "width": 1.0
+  },
+  {
+   "pts": [
+    [
+     724,
+     380
+    ],
+    [
+     724,
+     430
+    ],
+    [
+     625,
+     430
+    ],
+    [
+     625,
+     462
+    ]
+   ],
+   "color": "#A050A0",
+   "width": 1.0
+  },
+  {
+   "pts": [
+    [
+     662,
+     494
+    ],
+    [
+     676,
+     494
+    ],
+    [
+     676,
+     535
+    ],
+    [
+     692,
+     535
+    ]
+   ],
+   "color": "#A050A0",
+   "width": 1.0
+  },
+  {
+   "pts": [
+    [
+     737,
+     566
+    ],
+    [
+     737,
+     610
+    ]
+   ],
+   "color": "#A050A0",
+   "width": 1.0
+  },
+  {
+   "pts": [
+    [
+     780,
+     530
+    ],
+    [
+     800,
+     530
+    ],
+    [
+     800,
+     558
+    ]
+   ],
+   "color": "#A050A0",
+   "width": 1.0
+  },
+  {
+   "pts": [
+    [
+     924,
+     587
+    ],
+    [
+     944,
+     587
+    ],
+    [
+     944,
+     629
+    ],
+    [
+     776,
+     629
+    ]
+   ],
+   "color": "#A050A0",
+   "width": 1.0
+  },
+  {
+   "pts": [
+    [
+     104,
+     543
+    ],
+    [
+     158,
+     543
+    ]
+   ],
+   "color": "#C09000",
+   "width": 1.0
+  },
+  {
+   "pts": [
+    [
+     316,
+     543
+    ],
+    [
+     336,
+     540
+    ]
+   ],
+   "color": "#C09000",
+   "width": 1.0
+  },
+  {
+   "pts": [
+    [
+     378,
+     576
+    ],
+    [
+     378,
+     610
+    ]
+   ],
+   "color": "#C09000",
+   "width": 1.0
+  },
+  {
+   "pts": [
+    [
+     412,
+     556
+    ],
+    [
+     424,
+     556
+    ],
+    [
+     424,
+     585
+    ],
+    [
+     432,
+     585
+    ]
+   ],
+   "color": "#C09000",
+   "width": 1.0
+  },
+  {
+   "pts": [
+    [
+     418,
+     629
+    ],
+    [
+     488,
+     629
+    ],
+    [
+     488,
+     612
+    ]
+   ],
+   "color": "#C09000",
+   "width": 1.0
+  },
+  {
+   "pts": [
+    [
+     434,
+     568
+    ],
+    [
+     424,
+     568
+    ],
+    [
+     424,
+     548
+    ],
+    [
+     420,
+     548
+    ]
+   ],
+   "color": "#C09000",
+   "width": 1.0
+  },
+  {
+   "pts": [
+    [
+     98,
+     806
+    ],
+    [
+     140,
+     806
+    ]
+   ],
+   "color": "#2AA8A8",
+   "width": 1.0
+  },
+  {
+   "pts": [
+    [
+     96,
+     862
+    ],
+    [
+     140,
+     862
+    ]
+   ],
+   "color": "#2AA8A8",
+   "width": 1.0
+  },
+  {
+   "pts": [
+    [
+     270,
+     812
+    ],
+    [
+     284,
+     812
+    ],
+    [
+     284,
+     798
+    ],
+    [
+     296,
+     798
+    ]
+   ],
+   "color": "#2AA8A8",
+   "width": 1.0
+  },
+  {
+   "pts": [
+    [
+     270,
+     862
+    ],
+    [
+     320,
+     862
+    ],
+    [
+     320,
+     868
+    ],
+    [
+     370,
+     868
+    ]
+   ],
+   "color": "#2AA8A8",
+   "width": 1.0
+  },
+  {
+   "pts": [
+    [
+     374,
+     798
+    ],
+    [
+     412,
+     798
+    ],
+    [
+     412,
+     832
+    ]
+   ],
+   "color": "#2AA8A8",
+   "width": 1.0
+  },
+  {
+   "pts": [
+    [
+     452,
+     868
+    ],
+    [
+     484,
+     868
+    ]
+   ],
+   "color": "#2AA8A8",
+   "width": 1.0
+  },
+  {
+   "pts": [
+    [
+     519,
+     850
+    ],
+    [
+     519,
+     742
+    ],
+    [
+     69,
+     742
+    ],
+    [
+     69,
+     792
+    ]
+   ],
+   "color": "#2AA8A8",
+   "width": 1.0
+  },
+  {
+   "pts": [
+    [
+     682,
+     726
+    ],
+    [
+     700,
+     726
+    ],
+    [
+     700,
+     762
+    ],
+    [
+     761,
+     762
+    ]
+   ],
+   "color": "#C08040",
+   "width": 1.0
+  },
+  {
+   "pts": [
+    [
+     682,
+     778
+    ],
+    [
+     740,
+     778
+    ],
+    [
+     740,
+     770
+    ],
+    [
+     761,
+     770
+    ]
+   ],
+   "color": "#C08040",
+   "width": 1.0
+  },
+  {
+   "pts": [
+    [
+     682,
+     834
+    ],
+    [
+     750,
+     834
+    ],
+    [
+     750,
+     778
+    ],
+    [
+     761,
+     778
+    ]
+   ],
+   "color": "#C08040",
+   "width": 1.0
+  },
+  {
+   "pts": [
+    [
+     682,
+     896
+    ],
+    [
+     756,
+     896
+    ],
+    [
+     756,
+     786
+    ],
+    [
+     761,
+     786
+    ]
+   ],
+   "color": "#C08040",
+   "width": 1.0
+  },
+  {
+   "pts": [
+    [
+     686,
+     930
+    ],
+    [
+     723,
+     930
+    ]
+   ],
+   "color": "#C08040",
+   "width": 1.0
+  },
+  {
+   "pts": [
+    [
+     768,
+     914
+    ],
+    [
+     768,
+     812
+    ]
+   ],
+   "color": "#C08040",
+   "width": 1.0
+  },
+  {
+   "pts": [
+    [
+     843,
+     762
+    ],
+    [
+     856,
+     762
+    ]
+   ],
+   "color": "#C08040",
+   "width": 1.0
+  },
+  {
+   "pts": [
+    [
+     902,
+     864
+    ],
+    [
+     940,
+     864
+    ]
+   ],
+   "color": "#C08040",
+   "width": 1.0
+  },
+  {
+   "pts": [
+    [
+     974,
+     880
+    ],
+    [
+     974,
+     904
+    ],
+    [
+     880,
+     904
+    ],
+    [
+     880,
+     878
+    ]
+   ],
+   "color": "#C08040",
+   "width": 1.0
+  }
+ ]
+}

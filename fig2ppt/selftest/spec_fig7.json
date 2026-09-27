@@ -1,0 +1,382 @@
+{
+ "image": "decb7beaf6cc6b072426b0d8e300a180.png",
+ "keep_only": true,
+ "round": false,
+ "overrides": {
+  "0": {
+   "text": "",
+   "fill": "#B0C0D8",
+   "stroke": "#7A9CC6"
+  },
+  "3": {
+   "text": "",
+   "fill": "#B0C0D8",
+   "stroke": "#7A9CC6"
+  },
+  "4": {
+   "text": "",
+   "fill": "#B0C0D8",
+   "stroke": "#7A9CC6"
+  },
+  "12": {
+   "text": "Template",
+   "fill": "#D8E8FF",
+   "stroke": "#5B7DB1"
+  },
+  "13": {
+   "text": "Backbone",
+   "shape": "triangleR",
+   "fill": "#D8E8FF",
+   "stroke": "#5B7DB1",
+   "size": 11.05
+  },
+  "16": {
+   "text": "Ego-context\naugment",
+   "fill": "#FFFFFF",
+   "stroke": "#333333",
+   "size": 11.05
+  },
+  "17": {
+   "text": "Cross-feature\naugment",
+   "fill": "#FFFFFF",
+   "stroke": "#333333",
+   "size": 11.05
+  },
+  "18": {
+   "text": "",
+   "fill": "#B0C0D8",
+   "stroke": "#7A9CC6"
+  },
+  "19": {
+   "text": "",
+   "fill": "#B0C0D8",
+   "stroke": "#7A9CC6"
+  },
+  "25": {
+   "text": "Regression",
+   "fill": "#FFFFFF",
+   "stroke": "#333333",
+   "size": 11.05
+  },
+  "26": {
+   "text": "Cross-feature\naugment",
+   "fill": "#FFFFFF",
+   "stroke": "#333333",
+   "size": 11.05
+  },
+  "29": {
+   "text": "",
+   "fill": "#B0C0D8",
+   "stroke": "#7A9CC6"
+  },
+  "30": {
+   "text": "Classification",
+   "fill": "#FFFFFF",
+   "stroke": "#333333",
+   "size": 11.05
+  },
+  "35": {
+   "text": "Ego-context\naugment",
+   "fill": "#FFFFFF",
+   "stroke": "#333333",
+   "size": 11.05
+  },
+  "37": {
+   "text": "",
+   "fill": "#B0C0D8",
+   "stroke": "#7A9CC6"
+  },
+  "38": {
+   "text": "Search",
+   "fill": "#D8E8FF",
+   "stroke": "#5B7DB1"
+  },
+  "39": {
+   "text": "Backbone",
+   "shape": "triangleR",
+   "fill": "#D8E8FF",
+   "stroke": "#5B7DB1",
+   "size": 11.05
+  },
+  "40": {
+   "text": "Cross-feature\naugment",
+   "fill": "#FFFFFF",
+   "stroke": "#333333",
+   "size": 11.05
+  }
+ },
+ "add": [
+  {
+   "rect": [
+    332,
+    20,
+    414,
+    316
+   ],
+   "no_fill": true,
+   "stroke": "#2E8B57",
+   "dash": true,
+   "shape": "rect"
+  },
+  {
+   "rect": [
+    415,
+    58,
+    245,
+    182
+   ],
+   "no_fill": true,
+   "stroke": "#333333",
+   "dash": true,
+   "shape": "rect"
+  },
+  {
+   "rect": [
+    428,
+    40,
+    132,
+    22
+   ],
+   "text": "Nx feature fusion layer",
+   "fill": "#2F4F7F",
+   "stroke": "#2F4F7F",
+   "text_color": "#FFFFFF",
+   "size": 15.34,
+   "shape": "rect_sharp"
+  },
+  {
+   "rect": [
+    256,
+    38,
+    88,
+    74
+   ],
+   "icon": "stripes",
+   "no_line": true,
+   "no_fill": true,
+   "stroke": "#6C8EBF"
+  },
+  {
+   "rect": [
+    256,
+    172,
+    88,
+    74
+   ],
+   "icon": "stripes",
+   "no_line": true,
+   "no_fill": true,
+   "stroke": "#6C8EBF"
+  },
+  {
+   "rect": [
+    726,
+    94,
+    92,
+    104
+   ],
+   "icon": "stripes",
+   "no_line": true,
+   "no_fill": true,
+   "stroke": "#6C8EBF"
+  },
+  {
+   "rect": [
+    969,
+    40,
+    84,
+    62
+   ],
+   "icon": "stripes",
+   "no_line": true,
+   "no_fill": true,
+   "stroke": "#6C8EBF"
+  },
+  {
+   "rect": [
+    969,
+    187,
+    84,
+    58
+   ],
+   "icon": "stripes",
+   "no_line": true,
+   "no_fill": true,
+   "stroke": "#6C8EBF"
+  }
+ ],
+ "labels": [
+  {
+   "x": 172,
+   "y": 72,
+   "w": 50,
+   "h": 30,
+   "text": "Reshape\nConv",
+   "size": 11.66
+  },
+  {
+   "x": 175,
+   "y": 206,
+   "w": 50,
+   "h": 30,
+   "text": "Reshape\nConv",
+   "size": 11.66
+  },
+  {
+   "x": 240,
+   "y": 114,
+   "w": 117,
+   "h": 26,
+   "text": "Template vectors",
+   "size": 16.57
+  },
+  {
+   "x": 241,
+   "y": 250,
+   "w": 115,
+   "h": 26,
+   "text": "Search vectors",
+   "size": 16.57
+  },
+  {
+   "x": 716,
+   "y": 200,
+   "w": 111,
+   "h": 24,
+   "text": "Fusion vectors",
+   "size": 16.57
+  },
+  {
+   "x": 837,
+   "y": 210,
+   "w": 104,
+   "h": 22,
+   "text": "Prediction head",
+   "size": 16.57
+  },
+  {
+   "x": 961,
+   "y": 100,
+   "w": 99,
+   "h": 42,
+   "text": "Regression\nvectors",
+   "size": 15.96
+  },
+  {
+   "x": 946,
+   "y": 242,
+   "w": 132,
+   "h": 42,
+   "text": "Classification\nvectors",
+   "size": 15.34
+  },
+  {
+   "x": 452,
+   "y": 281,
+   "w": 176,
+   "h": 22,
+   "text": "Feature fusion network",
+   "size": 16.57
+  },
+  {
+   "x": 498,
+   "y": 332,
+   "w": 136,
+   "h": 20,
+   "text": "Transformer part",
+   "size": 16.57,
+   "color": "#2E8B57"
+  },
+  {
+   "x": 494,
+   "y": 78,
+   "w": 22,
+   "h": 18,
+   "text": "q",
+   "size": 16.57
+  },
+  {
+   "x": 492,
+   "y": 102,
+   "w": 26,
+   "h": 18,
+   "text": "k,v",
+   "size": 14.13
+  },
+  {
+   "x": 492,
+   "y": 150,
+   "w": 26,
+   "h": 18,
+   "text": "k,v",
+   "size": 14.13
+  },
+  {
+   "x": 494,
+   "y": 188,
+   "w": 22,
+   "h": 18,
+   "text": "q",
+   "size": 16.57
+  }
+ ],
+ "arrows": [
+  {
+   "from": "12:r",
+   "to": "13:l"
+  },
+  {
+   "from": "13:r",
+   "to": "0:l"
+  },
+  {
+   "from": "0:r",
+   "to": "16:l"
+  },
+  {
+   "from": "38:r",
+   "to": "39:l"
+  },
+  {
+   "from": "39:r",
+   "to": "29:l"
+  },
+  {
+   "from": "29:r",
+   "to": "35:l"
+  },
+  {
+   "from": "16:r",
+   "to": "17:l"
+  },
+  {
+   "from": "35:r",
+   "to": "40:l"
+  },
+  {
+   "from": "17:r",
+   "to": "26:l"
+  },
+  {
+   "from": "40:r",
+   "to": "26:l",
+   "mode": "vhv"
+  },
+  {
+   "from": "26:r",
+   "to": "18:l"
+  },
+  {
+   "from": "18:r",
+   "to": "19:l"
+  },
+  {
+   "from": "25:r",
+   "to": "4:l"
+  },
+  {
+   "from": "30:r",
+   "to": "37:l"
+  }
+ ]
+}
